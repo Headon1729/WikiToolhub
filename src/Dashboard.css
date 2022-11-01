@@ -1,0 +1,93 @@
+.dashboard-component {
+  background-color: #f5f5f7;
+  height: calc(100vh - 65px);
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.dashoard-title {
+  font-size: 3em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.piechart-container {
+  margin-top: 7em;
+}
+
+.charts-menu {
+  width: 250px;
+  margin-top: 5em;
+  margin-left: 2em;
+  margin-right: 3em;
+}
+
+.charts-container {
+  background-color: white;
+  position: relative;
+  padding-left: 2em;
+  padding-bottom: 2em;
+  height: 38em;
+  width: 75em;
+  overflow: auto;
+}
+
+.charts-boundary {
+  background-color: white;
+  height: 39em;
+  width: 75em;
+}
+
+.chart {
+  cursor: pointer;
+  padding-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.chart-selected {
+  color: white;
+  border-radius: 0.5em;
+  background-color: #6e77ea;
+  padding-left: 1em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.5em;
+}
+
+.select-wrapper {
+  position: absolute;
+  top: 2em;
+  left: 4em;
+  width: 400px;
+}
+
+.total-count {
+  font-weight: 600;
+  position: absolute;
+  top: 32em;
+  left: 60em;
+}
+@media only screen and (max-width: 2400px) {
+  .dashboard-component {
+    padding: 0 15em;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .dashboard-component {
+    padding: 0 4em;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .dashboard-component {
+    padding: 0;
+  }
+}
